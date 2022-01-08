@@ -374,8 +374,7 @@ html {
 .about-section {
   position: relative;
 }
-.msm-about {
-}
+
 .about-article {
   background-color: rgb(230, 111, 62);
   padding: 1rem;
@@ -392,12 +391,11 @@ html {
   margin: 1rem 0;
   font-size: 1rem;
   padding: 0.5rem;
-  background-color: rgb(200, 111, 72);
+  background-color: rgba(200, 110, 72, 0.603);
   border-radius: 3rem;
 }
 .section2-btn a {
   color: white;
-
   padding: 0.2rem;
 }
 .about-p {
@@ -409,7 +407,6 @@ html {
 .about-article2 {
   background-color: whitesmoke;
   padding: 1rem;
-  /* text-align: center; */
   margin: -8rem 0 2rem 0;
 }
 .about-article2 a {
@@ -457,9 +454,9 @@ html {
 }
 .section3-icon:hover {
   background-color: rgb(227, 82, 51);
+  color: white;
 }
 .section3-icon i:hover {
-  /* background-color: rgb(230, 125, 84); */
   color: white;
 }
 
@@ -876,7 +873,7 @@ html {
   color: rgb(230, 111, 62);
   font-size: 1.5rem;
   font-weight: 500;
-  padding-left: .5rem;
+  padding-left: 0.5rem;
 }
 .section-faq h3 {
   font-size: 1.7rem;
@@ -904,6 +901,8 @@ html {
   text-align: center;
   padding: 0.3rem;
   color: rgb(227, 82, 51);
+  font-size: 1.1rem;
+  font-weight: 700;
 }
 .faq-article {
   background-color: white;
@@ -1005,12 +1004,12 @@ form {
   margin-top: 2rem;
 }
 .form-data {
-  width: 46%;
+  width: 45.5%;
   margin: 1rem 1.3rem;
   padding: 1rem 0.5rem;
 }
 .form-data1 {
-  width: 96%;
+  width: 94.5%;
   padding: 1rem 0.5rem;
   margin: 1rem 1.3rem;
 }
@@ -1081,7 +1080,7 @@ input {
 }
 .footer-nav a {
   border-radius: 50%;
-  padding: 0.5rem;
+  padding: 0.8rem 0.85rem;
   margin-left: 0.2rem;
   background-color: rgb(227, 82, 51);
 }
@@ -1090,6 +1089,7 @@ input {
 }
 .footer-nav i {
   color: white;
+  font-size: 1.2rem;
 }
 .footer-span {
   color: rgb(227, 82, 51);
@@ -1097,14 +1097,15 @@ input {
 
 /* blog page start  */
 
-.blog-header {
+.blog-hading {
   background-color: rgb(252, 241, 236);
   padding: 1rem 2rem;
+  margin: 1rem auto;
 }
-.blog-header h5 {
+.blog-hading h5 {
   text-transform: capitalize;
 }
-.blog-header h2 {
+.blog-hading h2 {
   font-size: 1.5rem;
   margin: 0.5rem 0;
   font-weight: 600;
@@ -1114,7 +1115,9 @@ input {
   box-shadow: 0 0 3px 3px rgb(177, 174, 174);
   padding: 0.5rem;
 }
-
+.bars {
+  display: none;
+}
 .blog-h2 {
   font-size: 1.5rem;
   font-weight: 600;
@@ -1123,15 +1126,18 @@ input {
 }
 .blog-h2:hover {
   background-color: rgb(227, 82, 51);
+  color: white;
 }
 .blog-navbar {
   margin: 1rem 0;
+  padding: 0 0.5rem;
 }
 .blog-p {
   line-height: 1.5;
   font-size: 1.1rem;
   font-weight: 500;
   color: rgb(85, 73, 69);
+  padding-left: 0.5rem;
 }
 .blog-navbar a {
   color: rgb(175, 162, 158);
@@ -1326,6 +1332,9 @@ input {
   .sm-portfolio-img {
     box-shadow: 0 0 3px 1px grey;
   }
+  .sm-blog-article {
+    padding: 0.5rem 2rem;
+  }
 }
 /* screen size 420px */
 
@@ -1486,5 +1495,11 @@ input {
   }
   .m-portfolio-img {
     box-shadow: 0 0 3px 1px grey;
+  }
+  .m-padding {
+    padding: 1rem 2rem;
+  }
+  .msm-blog-article {
+    padding: 0 2rem;
   }
 }
