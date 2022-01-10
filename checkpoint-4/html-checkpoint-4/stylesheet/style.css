@@ -354,6 +354,7 @@ html {
   background-color: rgba(87, 81, 79, 0.474);
   width: 8.5rem;
   border-radius: 5rem;
+  /* text-align: center; */
 }
 .hero-icon:hover {
   background-color: rgb(227, 82, 51);
@@ -389,12 +390,21 @@ html {
   font-weight: 800;
   color: aliceblue;
 }
+.about-img {
+  height: 30rem;
+}
 .section2-btn {
   border: none;
   margin: 1rem 0;
   font-size: 1rem;
   padding: 0.5rem;
-  background-color: rgba(200, 110, 72, 0.603);
+  background-color: rgba(200, 110, 72, 0.445);
+  border-radius: 3rem;
+}
+.section2-btn:hover a {
+  background-color: white;
+  color: rgb(230, 111, 72);
+  padding: 0.5rem 1rem;
   border-radius: 3rem;
 }
 
@@ -410,9 +420,10 @@ html {
   margin-top: 1rem;
 }
 .about-article2 {
-  background-color: whitesmoke;
+  background-color: white;
   padding: 1rem;
   margin: -8rem 0 2rem 0;
+  box-shadow: 0 0 3px 0.1px grey;
 }
 .about-article2 a {
   font-size: 2rem;
@@ -451,10 +462,13 @@ html {
   font-weight: 600;
 }
 .section3-icon {
-  border: 0.15rem solid rgb(227, 82, 51);
+  border: 0.12rem solid rgb(227, 82, 51);
   border-radius: 50%;
   text-align: center;
-  padding: 0.5rem;
+  padding: 0.2rem;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
   margin-bottom: 3.5rem;
 }
 .section3-div:hover .section3-icon {
@@ -526,6 +540,9 @@ html {
   border: 0.12rem solid rgb(230, 111, 62);
   border-radius: 50%;
   padding: 0.5rem 0.55rem;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
   background-color: rgb(230, 111, 62);
 }
 .service-a {
@@ -825,7 +842,7 @@ html {
   background-color: rgb(248, 248, 248);
 
   margin: 2.5rem 0;
-  box-shadow: 0 0 4px 1px black;
+  box-shadow: 0 0 3px 0.3px black;
 }
 .pricing-box h5 {
   padding: 1rem 0;
@@ -951,7 +968,7 @@ html {
 }
 .contect-box {
   padding: 1.5rem;
-  box-shadow: 0 0 4px 1px black;
+  box-shadow: 0 0 4px 0.3px black;
 }
 .contect-box h4 {
   font-size: 1.4rem;
@@ -989,7 +1006,7 @@ html {
 }
 form {
   padding: 2rem;
-  box-shadow: 0 0 4px 1px black;
+  box-shadow: 0 0 4px 0.3px black;
   margin-top: 2rem;
 }
 .form-data {
@@ -1072,18 +1089,16 @@ input {
   color: grey;
   margin: 2rem 0;
 }
-.footer-nav a {
+
+.underfooter-nav a {
+  margin-left: 0.5rem;
+  height: 6rem;
+  width: 6rem;
+  border: 0.12rem solid rgb(230, 111, 62);
   border-radius: 50%;
-  padding: 0.8rem 0.85rem;
-  margin-left: 0.2rem;
-  background-color: rgb(227, 82, 51);
-}
-.footer-nav a:hover {
-  background-color: rgb(200, 111, 72);
-}
-.footer-nav i {
+  padding: 0.5rem 0.55rem;
   color: white;
-  font-size: 1.2rem;
+  background-color: rgb(230, 111, 62);
 }
 .footer-span {
   color: rgb(227, 82, 51);
@@ -1183,8 +1198,8 @@ input {
   width: 2.5rem;
   border: 0.12rem solid red;
   text-align: center;
-  padding: 0.2rem 0;
-  font-size: 2rem;
+  /* padding: 0.2rem 0; */
+  font-size: 1.5rem;
   background-color: grey;
 }
 
