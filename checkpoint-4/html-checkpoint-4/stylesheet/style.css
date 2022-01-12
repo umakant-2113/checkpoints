@@ -397,9 +397,11 @@ html {
   border: none;
   margin: 1rem 0;
   font-size: 1rem;
-  padding: 0.5rem;
-  background-color: rgba(200, 110, 72, 0.445);
+  padding: 0.5rem 1rem;
+  background-color: rgb(241, 122, 83);
   border-radius: 3rem;
+  /* padding-left: 3rem; */
+  margin-left: 30%;
 }
 .section2-btn:hover a {
   background-color: white;
@@ -437,6 +439,10 @@ html {
   margin: 1rem 0 1.5rem 0;
   text-transform: capitalize;
 }
+.about-article2 p {
+  color: rgb(134, 133, 133);
+  font-weight: 500;
+}
 /* section value  start */
 
 .section-3 {
@@ -452,8 +458,10 @@ html {
   font-size: 1.8rem;
   font-weight: 700;
   word-spacing: 0.12rem;
-  margin: 1.2rem 0;
+  margin: 0;
+  line-height: 1.2;
   color: rgb(85, 73, 69);
+  padding-bottom: 1rem;
 }
 .section3-p {
   margin-bottom: 2.1rem;
@@ -469,7 +477,7 @@ html {
   height: 3rem;
   width: 3rem;
   border-radius: 50%;
-  margin-bottom: 3.5rem;
+  margin-bottom: 3rem;
 }
 .section3-div:hover .section3-icon {
   border: 1px solid red;
@@ -484,11 +492,12 @@ html {
 }
 
 .section3-h4 {
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   text-transform: capitalize;
   font-weight: 700;
-  margin: 0 0.5rem 0.8rem 1rem;
+  /* margin: 0 0.5rem 0.8rem 1rem; */
   color: rgb(85, 73, 69);
+  padding: 0.25rem 1rem;
 }
 .section3-p2 {
   margin-left: 1rem;
@@ -925,7 +934,7 @@ html {
   border: 0.12rem solid rgb(230, 111, 72);
   text-align: center;
   font-weight: 600;
-  font-size: 1.1rem;
+  /* font-size: 1.1rem; */
   color: rgb(200, 111, 72);
 }
 .faq-article {
@@ -950,7 +959,9 @@ html {
 .fa-angle-down {
   color: rgb(85, 73, 69);
 }
+
 /* contect section start  */
+
 .contect-section {
   padding: 4rem 0 3rem 0;
 }
